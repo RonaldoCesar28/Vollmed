@@ -35,7 +35,6 @@ Cypress.Commands.add('loginApi', (email, senha, api_login) => {
     cy.request({
         method: 'POST',
         url: api_login,
-        failOnStatusCode: false,
         body: {
             email: email,
             senha: senha
