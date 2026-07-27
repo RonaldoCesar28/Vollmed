@@ -15,6 +15,13 @@ describe('testes em API', () => {
         it('Deve verificar se o token de autenticação é retornado após login via POST na API', () => {
             cy.get('@token').should('exist')
         })
+
+        it('Deve verificar se o usuário está autenticado corretamente via POST na API', () => {
+            // Verificar se a autenticação está presente no localStorage
+            cy.get('@token').then(token => {
+                expect(token).to.exist;
+            })
+        })
     })
 
     context('Requisições de usuário clinica em especialistas', () => {
@@ -23,7 +30,6 @@ describe('testes em API', () => {
         })
 
         it('POST em especialistas', () => {
-
             cy.env(['api_clinica']).then(({ api_clinica }) => {
 
                 cy.get('@especialistas').then((dados) => {
@@ -52,6 +58,25 @@ describe('testes em API', () => {
                         expect(response.body).to.have.property('nome')
                         expect(response.body).to.have.property('email') // Verifica se a propriedade "email" é igual ao valor enviado na requisição
                     })
+                })
+            })
+        })
+
+        it('Requisição incorreta em criação de especialista', () => {
+            cy.env(['api_clinica']).then(({ api_clinica }) => {
+
+                cy.request({
+                    method: 'POST',
+                    url: api_clinica,
+                    body: {
+                        nome: 'Camila',
+                        email: 'camila123@exemplo',
+                    },
+                    failOnStatusCode: false
+
+                }).then((response) => {
+                    expect(response.status).to.eq(500)
+                    expect(response.body).to.have.property('message')
                 })
             })
         })
