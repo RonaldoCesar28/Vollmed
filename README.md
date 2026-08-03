@@ -1,22 +1,16 @@
+<h1>Site: Vollmed</h1>
 
-![React com Typescript: desenvolvendo uma área administrativa com MUI, Recharts e Styled Components](https://imgur.com/Qgf3van.png)
+<h2> 📝 Sobre</h2>
+<h3> <p>Projeto Utilizado no Curso de Cypress Automatização de Testes Web e CI</p> </h3>
 
-# React com Typescript: desenvolvendo uma área administrativa
+## 🚀 Tecnologias
+<div>
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Cypress-Light.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg">
+</div>
 
-Este projeto faz parte da escola Front-end e tem como objetivo ensinar a construção de uma página de área administrativa utilizando React com Typescript e as bibliotecas Styled-Components, MUI e Recharts.
-
-## Funcionalidades do projeto
-
-A página de área administrativa terá as seguintes funcionalidades:
-
-- Dashboard: Página principal com tabela, gráficos e informações.
-
-## Técnicas e tecnologias utilizadas
-
-As técnicas e tecnologias que serão utilizadas neste projeto são:   
-
-- React: Biblioteca para construção de interfaces de usuário.
-- Typescript: Linguagem de programação que adiciona tipagem estática ao Javascript.
-- Styled-Components: Biblioteca para estilização de componentes React utilizando CSS-in-JS.
-- MUI: Biblioteca de componentes React para criação de interfaces de usuário modernas e responsivas.
-- Recharts: Biblioteca para criação de gráficos utilizando React.
+# Desenvolvedor
+<img src="https://github.com/user-attachments/assets/c7a6e9ed-d509-4f2a-b857-c832d6973a54" width="120px"/><br>Ronaldo Cesar
