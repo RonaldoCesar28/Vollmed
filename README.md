@@ -1,22 +1,47 @@
+<h1>Site: Vollmed</h1>
 
-![React com Typescript: desenvolvendo uma área administrativa com MUI, Recharts e Styled Components](https://imgur.com/Qgf3van.png)
+<h2> 📝 Sobre</h2>
+<h3> <p>Projeto Utilizado no Curso de Cypress Automatização de Testes Web e CI</p> </h3>
 
-# React com Typescript: desenvolvendo uma área administrativa
+<h4> <p>O VollMed é uma plataforma desenvolvida para conectar pacientes, clínicas e médicos especialistas em um único ambiente. O sistema permite o gerenciamento de clínicas, cadastro de profissionais da saúde e acompanhamento de consultas, oferecendo uma solução completa para a administração de atendimentos médicos.
 
-Este projeto faz parte da escola Front-end e tem como objetivo ensinar a construção de uma página de área administrativa utilizando React com Typescript e as bibliotecas Styled-Components, MUI e Recharts.
+A plataforma facilita tanto a busca por especialistas quanto o gerenciamento administrativo das clínicas, proporcionando uma experiência mais eficiente para pacientes e gestores.
 
-## Funcionalidades do projeto
+<h3> O que o VollMed faz:</p></h3>
+🔹 Permite o cadastro de clínicas e seus respectivos administradores.</p>
+🔹 Possibilita o cadastro de médicos especialistas em diferentes áreas da saúde.</p>
+🔹 Disponibiliza um sistema de autenticação para acesso à área administrativa.</p>
+🔹 Exibe informações gerenciais como consultas agendadas, indicadores e avaliações dos profissionais.</p>
+🔹 Centraliza o gerenciamento de clínicas, especialistas e atendimentos em uma única plataforma.</p></h4>
 
-A página de área administrativa terá as seguintes funcionalidades:
+<h2>🚀 Tipos de testes automatizados com Cypress</h2>
 
-- Dashboard: Página principal com tabela, gráficos e informações.
+<h4>✅ 1. Testes de Interface (UI)</h4>
+<h4>✅ 2. Testes de Cadastro</h4>
+<h4>✅ 3. Testes de Login</h4>
+<h4>✅ 4. Testes Funcionais</h4>
+<h4>✅ 5. Testes de API</h4>
+<h4>✅ 6. Testes End-to-End (E2E)</h4>
+<h4>✅ 7. Testes de Regressão</h4>
+<h4>✅ 8. Testes de Validação</h4>
+<h4>✅ 9. Testes de Sessão</h4>
 
-## Técnicas e tecnologias utilizadas
+<h2>💡 Projeto de Automação de Testes</h2>
 
-As técnicas e tecnologias que serão utilizadas neste projeto são:   
+<h4>Neste projeto, utilizei o Cypress para automatizar cenários de interface e API, cobrindo todo o fluxo da aplicação, desde o cadastro e autenticação de usuários até a validação das funcionalidades administrativas da plataforma.</h4>
 
-- React: Biblioteca para construção de interfaces de usuário.
-- Typescript: Linguagem de programação que adiciona tipagem estática ao Javascript.
-- Styled-Components: Biblioteca para estilização de componentes React utilizando CSS-in-JS.
-- MUI: Biblioteca de componentes React para criação de interfaces de usuário modernas e responsivas.
-- Recharts: Biblioteca para criação de gráficos utilizando React.
+<h4>A automação contempla testes de ponta a ponta (End-to-End), validações de API, autenticação, regras de negócio, gerenciamento de sessões e testes de regressão, contribuindo para aumentar a confiabilidade da aplicação e reduzir falhas em novas entregas.</h4>
+
+<h4>Esse projeto demonstra como a automação de testes pode assegurar a qualidade de uma plataforma de gestão médica, validando desde os fluxos críticos de autenticação até os processos administrativos mais importantes do sistema.</h4>
+
+## 🚀 Tecnologias
+<div>
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/JavaScript.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/HTML.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Cypress-Light.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Git.svg">
+   <img width="40" src="https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/VSCode-Dark.svg">
+</div>
+
+## Desenvolvedor
+<img src="https://github.com/user-attachments/assets/c7a6e9ed-d509-4f2a-b857-c832d6973a54" width="120px"/><br>Ronaldo Cesar
